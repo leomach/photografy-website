@@ -25,7 +25,7 @@ const Container2 = () => {
                 <Link className="link-tipo" to="/ensaio">
                     <div className="tipo3">
                         <p>EN<br />SA<br />IO.</p>
-                        <img className="ensaio-fotografico" src={EnsaioFotografico} alt="Foto de ensaio fotografico de uma menina adolescente"></img>
+                        <img className="ensaio-fotografico" src={EnsaioFotografico} alt="Foto de ensaio fotográfico de uma menina adolescente"></img>
                     </div>
                 </Link>
             </div>

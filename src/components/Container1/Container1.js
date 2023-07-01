@@ -12,7 +12,7 @@ const Container1 = () => {
                     <br />Saiba mais sobre mim, como trabalho e como funciona o orçamento aqui neste site.
                     <br />
                     <br />Não deixe de olhar meu portfólio para se basear, o atendimento é totalmente focado no seu evento e tenho
-                    o prazer de deixar-lo mais especial.
+                    o prazer de deixá-lo mais especial.
                     <br />
                     <br /> Com 7 anos de experiência na área audiovisual, trabalhei com captação e edição de
                     vídeo, Motion Graphic, fotografia em agência de publicidade, eventos, colégios
@@ -21,7 +21,7 @@ const Container1 = () => {
                     <br />
                     <br />Formado em Marketing Digital, MBA em Desenvolvimento Fullstack e com diversos cursos da área, minha história
                     profissional não se resume a qualificações, mas também engloba competências
-                    adquiridas nos anos de experiencia e no trabalho com diferentes tipos de clientes.
+                    adquiridas nos anos de experiência e no trabalho com diferentes tipos de clientes.
 
                 </p>
             </div>

@@ -1,8 +1,13 @@
 /* dekstop */
 @media (min-width: 481px) {
-    header {
+    .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        top: 5px;
         position: fixed;
-        top: 0px;
     }
     
     .menu-content {

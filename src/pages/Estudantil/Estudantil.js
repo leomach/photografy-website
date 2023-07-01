@@ -52,9 +52,9 @@ const Estudantil = () => {
                     <h1>Como funciona o orçamento:</h1>
                     <p className="p-orcamento">
                         Temos dois tipos de orçamentos. O primeiro é o Padrão, que conta com todos os benefícios já citados. O segundo é o ESTUDANTIL, que além dos mesmos benefícios citados, conta com um desconto generoso.
-                        <br />No cálculo, é levado em conta custos de equipamento, transporte, número de pessoas no evento, horario, entre outros.
+                        <br />No cálculo, é levado em conta custos de equipamento, transporte, número de pessoas no evento, horário, entre outros.
                         <br />A chamada "Primeira Hora" é a primeira hora do evento do dia. As "Horas Adicionais" são as horas que vem logo após, essas contam com um desconto também!
-                        <br />Por exemplo: O evento começa de 20h e termina de 23h. A "Primeira Hora" é das 20h ás 21h. As "Horas Adicionais" são das 21h ás 22h e das 22h ás 23h. Ou seja, será cobrado o valor da "Primeira Hora" mais duas "Horas Adicionais".
+                        <br />Por exemplo: O evento começa de 20h e termina de 23h. A "Primeira Hora" é das 20h às 21h. As "Horas Adicionais" são das 21h às 22h e das 22h às 23h. Ou seja, será cobrado o valor da "Primeira Hora" mais duas "Horas Adicionais".
                         <br />As "Horas Adicionais" são mais baratas para que você possa ter mais tempo com menos custos.
                         <br />Com tanto benefício, fica difícil resistir! Saiba mais entrando em contato.
                     </p>

@@ -78,8 +78,8 @@ const Ensaio = () => {
                 <div className="texto">
                     <h1>Porque me escolher:</h1>
                     <p>
-                        Você já ouviu falar em tratamento de pele na fotografia? Não tem nada a ver com aquelas aberrações de distorção que tem por ai na internet. No tratamento que eu faço, vou tirar manchas da sua pele e as que são feitas pela própria câmera que são indesejadas (e só as indesejadas!), vou tirar aquela espinha ou qualquer outra imperfeição sem deixar você irreal. Tenho cursos de edição profissionalizantes e vou deixar você LINDA.
-                        <br />Tenho 6 anos de esperiencia no audiovisual, trabalhando com diversos tipos de fotografia e vídeo.
+                        Você já ouviu falar em tratamento de pele na fotografia? Não tem nada a ver com aquelas aberrações de distorção que tem por aí na internet. No tratamento que eu faço, vou tirar manchas da sua pele e as que são feitas pela própria câmera que são indesejadas (e só as indesejadas!), vou tirar aquela espinha ou qualquer outra imperfeição sem deixar você irreal. Tenho cursos de edição profissionalizantes e vou deixar você LINDA.
+                        <br />Tenho 6 anos de experiência no audiovisual, trabalhando com diversos tipos de fotografia e vídeo.
                         <br />Só fica atenta: com um trabalho com tanta qualidade, você vai mesmo ir pro fotografo meia boca??
                         <br />Aah! E caso você esteja precisando de fotos, mas não tem muito dinheiro pra gastar, chama um(a) amigo(a)! Aqui vocês podem dividir o pacote!
                     </p>
