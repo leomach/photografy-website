@@ -1,0 +1,124 @@
+/* dekstop */
+@media (min-width: 481px) {
+    .estudantil {
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .estudantil .foto {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-height: 1000px;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .estudantil .foto img {
+        width: 2000px;
+    }
+    
+    
+    .estudantil .texto {
+        width: 60%;
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .estudantil .texto .link-texto {
+        text-decoration: none;
+        color: yellow;
+    }
+    
+    .estudantil .button {
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        padding: 10px 50px;
+        margin: 30px 0px;
+        border: 1px solid white;
+        border-radius: 15px;
+        transition: all 0.3s;
+    }
+    
+    .estudantil .button:hover {
+        border-color: black;
+        background-color: goldenrod;
+        transition: all 0.3s;
+    }
+}
+
+/* mobile */
+@media (max-width: 480px) {
+    .estudantil {
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .estudantil .foto {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-height: 800px;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .estudantil .foto img {
+        width: 1150px;
+    }
+
+    .estudantil .foto .estudantil3 {
+        width: 1000px;
+    }
+    
+    
+    .estudantil .texto {
+        width: 75%;
+        min-height: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .estudantil .texto h1 {
+        margin-top: 100px;
+    }
+    .estudantil .texto p {
+        margin-bottom: 100px;
+    }
+    .estudantil .texto .p-orcamento {
+        margin-bottom: 0px;
+    }
+    
+    .estudantil .texto .link-texto {
+        text-decoration: none;
+        color: yellow;
+    }
+    
+    .estudantil .button {
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        padding: 10px 50px;
+        margin: 30px 0px 100px 0px;
+        border: 1px solid white;
+        border-radius: 15px;
+        transition: all 0.3s;
+    }
+    
+    .estudantil .button:hover {
+        border-color: black;
+        background-color: goldenrod;
+        transition: all 0.3s;
+    }
+
+}

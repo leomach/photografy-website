@@ -1,0 +1,116 @@
+
+/* dekstop */
+@media (min-width: 481px) {
+    .ensaio {
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .ensaio .foto {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .ensaio .foto img {
+        width: 25%
+    }
+    
+    
+    .ensaio .texto {
+        width: 60%;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .ensaio .texto .link-texto {
+        text-decoration: none;
+        color: yellow;
+    }
+    
+    .ensaio .button {
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        padding: 10px 50px;
+        margin: 30px 0px;
+        border: 1px solid white;
+        border-radius: 15px;
+        transition: all 0.3s;
+    }
+    
+    .ensaio .button:hover {
+        border-color: black;
+        background-color: goldenrod;
+        transition: all 0.3s;
+    }
+    
+}
+
+/* mobile */
+@media (max-width: 480px) {
+    .ensaio {
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .ensaio .foto {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .ensaio .foto img {
+        width: 50%
+    }
+    
+    
+    .ensaio .texto {
+        width: 60%;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .ensaio .texto .link-texto {
+        text-decoration: none;
+        color: yellow;
+    }
+    
+    .ensaio .button {
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        padding: 10px 50px;
+        margin: 30px 0px;
+        border: 1px solid white;
+        border-radius: 15px;
+        transition: all 0.3s;
+    }
+    
+    .ensaio .button:hover {
+        border-color: black;
+        background-color: goldenrod;
+        transition: all 0.3s;
+    }
+    
+}

@@ -1,0 +1,140 @@
+/* dekstop */
+@media (min-width: 481px) {
+    .container2 {
+        display: flex;
+        justify-content: center;
+        padding: 100px 0px;
+    }
+    
+    .container2 .tipos {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-bottom: 100px;
+        width: 70%;
+    }
+    
+    .container2 .tipo1,
+    .container2 .tipo2,
+    .container2 .tipo3 {
+        position: relative;
+        margin-right: 20px;
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        height: 400px;
+        width: 250px;
+        overflow: hidden;
+    }
+    
+    .container2 .tipo1 .foto-principal,
+    .container2 .tipo2 .evento-padrao,
+    .container2 .tipo3 .ensaio-fotografico {
+        cursor: pointer;
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        opacity: 100%;
+        transition: all 0.5s;
+    }
+    
+    .container2 .tipo1 p,
+    .container2 .tipo2 p,
+    .container2 .tipo3 p {
+        color: white;
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 40px;
+        opacity: 100%;
+        z-index: 0;
+    }
+    
+    .container2 .tipo1 .foto-principal:hover,
+    .container2 .tipo3 .ensaio-fotografico:hover,
+    .container2 .tipo2 .evento-padrao:hover {
+        opacity: 30%;
+        transform: scale(1.05);
+        transition: all 0.5s;
+    }
+    
+}
+
+/* mobile */
+@media (max-width: 480px) {
+    .container2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container2 .tipos {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding-bottom: 100px;
+        width: 100%;
+    }
+    
+    .container2 .link-tipo {
+        text-decoration: none;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .container2 .tipo1,
+    .container2 .tipo2,
+    .container2 .tipo3 {
+        background-color: black;
+        position: relative;
+        padding-top: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        height: 600px;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .container2 .tipo1 .foto-principal,
+    .container2 .tipo2 .evento-padrao {
+        cursor: pointer;
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        opacity: 30%;
+        transition: all 0.5s;
+    }
+    
+    .container2 .tipo3 .ensaio-fotografico {
+        cursor: pointer;
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        opacity: 30%;
+        transition: all 0.5s;
+    }
+    
+    .container2 .tipo1 p,
+    .container2 .tipo2 p,
+    .container2 .tipo3 p {
+        color: white;
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 40px;
+        opacity: 100%;
+        z-index: 0;
+    }  
+}

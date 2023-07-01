@@ -1,0 +1,114 @@
+/* dekstop */
+@media (min-width: 481px) {
+    .contato .contato-container {
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    
+    .contato .contato-container .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+    }
+    
+    .contato .contato-container .container .perfil {
+        width: 25%;
+        margin-right: 100px;
+    }
+    
+    .contato .contato-container .container .perfil img {
+        width: 100%;
+    }
+    
+    .contato .contato-container .container .texto {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contato .contato-container .container .texto a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .contato .contato-container .container .texto .button {
+        text-align: center;
+        padding: 10px 50px;
+        margin: 30px 0px;
+        border: 1px solid white;
+        border-radius: 15px;
+        transition: all 0.3s;
+    }
+    
+    .contato .contato-container .container .texto .button:hover {
+        border-color: black;
+        background-color: goldenrod;
+        transition: all 0.3s;
+    }
+    
+}
+
+/* mobile */
+@media (max-width: 480px) {
+    .contato .contato-container {
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    
+    .contato .contato-container .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+    }
+    
+    .contato .contato-container .container .perfil {
+        display: none;
+    }
+    
+    .contato .contato-container .container .perfil img {
+        width: 100%;
+    }
+    
+    .contato .contato-container .container .texto {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contato .contato-container .container .texto h1 {
+        margin: 0;
+    }
+
+    .contato .contato-container .container .texto a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .contato .contato-container .container .texto .button {
+        text-align: center;
+        padding: 10px 50px;
+        margin: 30px 0px;
+        border: 1px solid white;
+        border-radius: 15px;
+        transition: all 0.3s;
+    }
+    
+    .contato .contato-container .container .texto .button:hover {
+        border-color: black;
+        background-color: goldenrod;
+        transition: all 0.3s;
+    }
+    
+}

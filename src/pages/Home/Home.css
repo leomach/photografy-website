@@ -1,0 +1,19 @@
+@media (min-width: 481px) {
+    .home {
+        background-color: black;
+    }
+    .home .foto-principal {
+        background-color: black;
+        padding-top: 30px;
+    }
+}
+/* mobile */
+@media (max-width: 480px) {
+    .home {
+        background-color: black;
+    }
+    .home .foto-principal {
+        background-color: black;
+        padding-top: 40px;
+    }
+}
